@@ -131,7 +131,7 @@ Environment variables override the file. The gate blocks at most once per turn: 
 tests/run-hook-tests.sh
 ```
 
-This runs every hook's `--self-test`, then checks that each hook fails open on malformed stdin. CI runs the same script on Linux and macOS with Python 3.9, 3.12 and 3.13.
+This runs every hook's `--self-test`, then checks that each hook fails open on malformed stdin. CI runs the same script on Linux and macOS with Python 3.10, 3.12 and 3.13.
 
 ## License
 
